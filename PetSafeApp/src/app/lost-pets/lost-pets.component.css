@@ -1,0 +1,18 @@
+.lost-pets-container {
+  margin: 20px; /* Espaciado alrededor de la tabla */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con un poco de transparencia */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+table {
+  width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+  margin-bottom: 20px; /* Espacio entre tablas */
+}
+
+.pet-image {
+  width: 50px; /* Ancho de la imagen */
+  height: 50px; /* Alto de la imagen */
+  border-radius: 8px; /* Bordes redondeados para la imagen */
+}

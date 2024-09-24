@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  width: 100%; /* Asegura que las cajas ocupen el 100% del contenedor */
+  margin-bottom: 15px;
+}
+
+.login-button {
+  width: 100%; /* Asegura que el botón también ocupe el 100% */
+}

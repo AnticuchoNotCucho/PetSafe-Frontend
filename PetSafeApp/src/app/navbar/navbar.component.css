@@ -1,0 +1,22 @@
+.footer-toolbar {
+  position: fixed; /* Fija la barra en la parte inferior */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px; /* Altura fija de la barra */
+  display: flex;
+  justify-content: space-around; /* Espacio igual entre los elementos */
+  align-items: center; /* Centra los elementos verticalmente */
+  z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+}
+
+.nav-item a {
+  color: white; /* Cambia el color del texto */
+  text-decoration: none; /* Elimina el subrayado */
+  padding: 15px 20px; /* Espaciado interno */
+}
+
+.nav-item a:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Efecto hover */
+  border-radius: 4px; /* Bordes redondeados al pasar el mouse */
+}
