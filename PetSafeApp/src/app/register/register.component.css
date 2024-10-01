@@ -1,0 +1,88 @@
+body {
+  background-color: #f0f4f8; /* Un color de fondo más claro y agradable */
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Asegúrate de incluir la fuente Roboto en tu index.html */
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #ffffff; /* Fondo blanco para el contenedor */
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #ffffff;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.mat-form-field {
+  width: 100%;
+
+}
+
+.mat-form-field .mat-input-element {
+  color: #555;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button {
+  background-color: #6200ea;
+  color: white;
+}
+
+.register-button:hover {
+  background-color: #3700b3;
+}
+
+.login-button {
+  background-color: #03a9f4;
+  color: white;
+}
+
+.login-button:hover {
+  background-color: #0288d1;
+}
+
+.helper-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
+
+.helper-text a {
+  color: #6200ea;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.helper-text a:hover {
+  text-decoration: underline;
+}

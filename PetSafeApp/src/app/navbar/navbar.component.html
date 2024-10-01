@@ -1,6 +1,7 @@
 <mat-toolbar color="primary" class="footer-toolbar">
-  <span class="nav-item"><a routerLink="/login">Inicio</a></span>
-  <span class="nav-item"><a routerLink="/home">Home</a></span>
-  <span class="nav-item"><a routerLink="/profile">Perfil</a></span>
-  <span class="nav-item"><a routerLink="/lost-pets">Mascotas Perdidas</a></span>
+  <span class="nav-item"><a routerLink="/home">Home<span class="material-icons">home</span></a></span>
+  <span class="nav-item"><a routerLink="/lost-pets">Mascotas Perdidas<span class="material-icons">pets</span></a></span>
+  <span class="nav-item"><a routerLink="/found-pets">Mascotas Encontradas<span class="material-icons">pets</span></a></span>
+  <span class="nav-item"><a routerLink="/interest-points">Puntos de Interes<span class="material-icons">pets</span></a></span>
+  <span class="nav-item"><a (click)="onLogout()" style="cursor: pointer;">Logout<span class="material-icons">logout</span></a></span>
 </mat-toolbar>

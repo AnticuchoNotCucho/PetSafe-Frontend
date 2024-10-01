@@ -8,6 +8,7 @@
   justify-content: space-around; /* Espacio igual entre los elementos */
   align-items: center; /* Centra los elementos verticalmente */
   z-index: 1000; /* Asegúrate de que esté por encima de otros elementos */
+  background-color: mediumseagreen;
 }
 
 .nav-item a {

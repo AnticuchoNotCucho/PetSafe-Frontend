@@ -1,0 +1,23 @@
+<div class="component-container">
+  <div class="points-of-interest-container">
+    <h1>Lugares Importantes</h1>
+    <table id="pointsOfInterestTable">
+      <thead>
+      <tr>
+        <th>Imagen</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Ubicación</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let poi of pointsOfInterest">
+        <td><img [src]="poi.image" alt="{{poi.name}}" width="100"></td>
+        <td>{{ poi.name }}</td>
+        <td>{{ poi.description }}</td>
+        <td>{{ poi.coords }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

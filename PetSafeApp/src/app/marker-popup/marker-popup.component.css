@@ -1,0 +1,17 @@
+.marker-option {
+  flex: 1; /* Cada botón ocupará el mismo ancho */
+  margin-right: 8px; /* Espacio entre botones */
+  width: 100%;
+  height: 100%;
+}
+
+.marker-option:last-child {
+  margin-right: 0; /* Sin margen a la derecha del último botón */
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  width: 100%; /* Asegurarse de que ocupe todo el ancho */
+}

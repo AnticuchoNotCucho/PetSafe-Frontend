@@ -1,18 +1,61 @@
-.lost-pets-container {
-  margin: 20px; /* Espaciado alrededor de la tabla */
+.component-container {
+  background: url("/assets/petbackground.jpg");
+  background-size: cover;
+  min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la vista */
   padding: 20px;
-  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con un poco de transparencia */
-  border-radius: 8px; /* Bordes redondeados */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+  box-sizing: border-box;
+}
+
+.lost-pets-container {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
 }
 
 table {
-  width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
-  margin-bottom: 20px; /* Espacio entre tablas */
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: white;
 }
 
-.pet-image {
-  width: 50px; /* Ancho de la imagen */
-  height: 50px; /* Alto de la imagen */
-  border-radius: 8px; /* Bordes redondeados para la imagen */
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+button {
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
 }

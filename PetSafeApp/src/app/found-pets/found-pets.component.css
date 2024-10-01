@@ -1,0 +1,53 @@
+.component-container {
+  background: url("/assets/petbackground.jpg");
+  background-size: cover;
+  min-height: 100vh; /* Asegura que el fondo cubra toda la altura de la vista */
+  padding: 20px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  margin: 0; /* Asegura que no haya margen por defecto */
+}
+
+.lost-pets-container {
+  margin: 20px auto; /* Auto para centrar */
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Ancho máximo para la tabla */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+img {
+  width: 100px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px; /* Bordes redondeados */
+}

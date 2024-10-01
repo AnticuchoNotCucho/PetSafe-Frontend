@@ -1,28 +1,24 @@
-<div class="profile-container">
+<div class="profile-container" *ngIf="userProfile">
   <mat-card class="profile-card">
     <mat-card-header>
       <div class="profile-info">
         <img
-          src="https://via.placeholder.com/80"
+          src="profilewhite.png"
           alt="Avatar"
           class="profile-avatar"
         />
         <div class="profile-details">
-          <h2>Nombre del Usuario</h2>
-          <p>Email: usuarioxexample.com</p>
-          <p>Teléfono: (123) 456-7890</p>
+          <h6>Usuario: {{ userProfile.username }}</h6>
+          <h6>{{ userProfile.name + " " + userProfile.lastname }}</h6>
+          <p>Email: {{ userProfile.email }}</p>
+          <p>Teléfono: {{ userProfile.phone }}</p> <!-- Usar el operador ?. -->
+          <p>Role: {{ roleName }}</p> <!-- Usar el operador ?. -->
         </div>
       </div>
     </mat-card-header>
     <mat-card-content>
-      <p>
-        Aquí puedes agregar una breve descripción sobre el usuario.
-        Este texto es solo un ejemplo.
-      </p>
+
     </mat-card-content>
-    <mat-card-actions>
       <button mat-button color="primary">Editar</button>
-      <button mat-button color="warm">Eliminar</button>
-    </mat-card-actions>
   </mat-card>
 </div>

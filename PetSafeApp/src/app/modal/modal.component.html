@@ -1,0 +1,6 @@
+<div *ngIf="isOpen" class="modal-overlay" (click)="onClose()">
+  <div class="" (click)="$event.stopPropagation()"> <!-- Prevenir el cierre al hacer clic dentro del modal -->
+    <app-profile></app-profile>
+    <button (click)="onClose()">Cerrar</button>
+  </div>
+</div>

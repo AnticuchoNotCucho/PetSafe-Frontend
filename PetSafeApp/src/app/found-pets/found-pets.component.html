@@ -1,0 +1,24 @@
+<div class="component-container">
+<div class="lost-pets-container">
+  <h1>Lista de Mascotas Encontradas</h1>
+  <table id="lostPetsTable">
+    <thead>
+    <tr>
+      <th>Imagen</th>
+      <th>Nombre</th>
+      <th>Descripción</th>
+      <th>Fecha de Encuentro</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let pet of foundPets">
+      <td><img [src]="pet.image" alt="{{pet.name}}" width="100"></td>
+      <td>{{ pet.name }}</td>
+      <td>{{ pet.petDescription }}</td>
+      <td>{{ pet.foundAt | date:'yyyy-MM-dd' }}</td>
+    </tr>
+    </tbody>
+
+  </table>
+</div>
+</div>
